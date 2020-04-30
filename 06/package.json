@@ -9,7 +9,9 @@
   "scripts": {
     "build": "./node_modules/.bin/webpack",
     "start": "./node_modules/.bin/webpack-dev-server --hot --inline --content-base .",
-    "test": "mocha --compilers js:babel-register"
+    "test": "mocha --compilers js:babel-register",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "antd": "^1.6.4",
@@ -23,7 +25,8 @@
     "redux-composable-fetch": "^0.3.4",
     "redux-form-utils": "^1.0.8",
     "redux-thunk": "^1.0.3",
-    "whatwg-fetch": "^0.11.0"
+    "whatwg-fetch": "^0.11.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-loader": "^6.2.4",
@@ -41,5 +44,6 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "snyk": true
 }
