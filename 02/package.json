@@ -6,7 +6,9 @@
     "url": "https://github.com/arcthur/react-book-examples"
   },
   "scripts": {
-    "start": "cross-env NODE_ENV=development node server.js"
+    "start": "cross-env NODE_ENV=development node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "MIT",
   "devDependencies": {
@@ -41,6 +43,8 @@
     "react-dom": "~15.0.2",
     "react-css-modules": "^3.7.10",
     "react-motion": "^0.4.5",
-    "react-immutable-render-mixin": "^0.9.7"
-  }
+    "react-immutable-render-mixin": "^0.9.7",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
