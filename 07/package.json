@@ -21,7 +21,7 @@
     "react-dom": "~15.0.0",
     "utility": "~1.6.0",
     "inflection": "~1.8.0",
-    "loading": "~1.10.0",
+    "loading": "~1.12.1",
     "is": "~3.1.0",
     "supertest": "~1.1.0",
     "should": "~8.2.0",
