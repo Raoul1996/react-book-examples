@@ -12,8 +12,8 @@
     "test": "mocha --compilers js:babel-register"
   },
   "dependencies": {
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-redux": "^4.4.0",
     "react-router": "^2.0.0",
     "react-router-redux": "^4.0.0",
