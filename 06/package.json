@@ -12,7 +12,7 @@
     "test": "mocha --compilers js:babel-register"
   },
   "dependencies": {
-    "antd": "^1.6.4",
+    "antd": "^4.0.0",
     "fetch": "^1.1.0",
     "react": "~15.0.0",
     "react-dom": "~15.0.0",
